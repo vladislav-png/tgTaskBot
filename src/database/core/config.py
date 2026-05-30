@@ -29,7 +29,7 @@ class SchemasDatabaseUrl(BaseModel):
 
 
 env_db_url = DatabseUrl()
-db_url = SchemasDatabaseUrl(
+db_url_schema = SchemasDatabaseUrl(
     user=env_db_url.USER,
     user_pass=env_db_url.USER_PASS,
     host=env_db_url.HOST,
